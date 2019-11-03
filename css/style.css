@@ -25,11 +25,21 @@ a {
 }
 
 .tm-color-primary {
-  color: rgb(0, 71, 107);
+  color: #0d1c27;
+}
+
+#intro-title{
+  color: #fff;
 }
 
 .tm-color-gray {
-  color: #333;
+  color: rgb(255, 255, 255);
+}
+
+.tm-color-gray a {
+  
+  color: rgb(216, 213, 255);
+  font-style: italic;
 }
 
 .tm-bg-black-transparent {
@@ -37,8 +47,8 @@ a {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid white;
+  background-color: rgba(28, 33, 80, 0.123);
+  border: 2px solid #f1ab4c;
 }
 
 .tm-intro {
@@ -726,7 +736,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .reviews .carousel .carousel-control {
     width: 30px;
     height: 30px;
-      background: #24861b;
+      background: #101920;
       text-shadow: none;
     top: 4px;
   }
@@ -746,7 +756,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	position: absolute;
 	height: 4px;
 	border-radius: 1px;
-	background: #24861b;
+	background: #eb9927;
 	left: 0;
 	bottom: -20px;
 }
@@ -829,12 +839,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 .reviews .carousel .overview b {
 	text-transform: uppercase;
-	color: #24861b;
+	color: #101920;
 }
 .reviews .carousel .carousel-control {
 	width: 30px;
 	height: 30px;
-    background: #24861b;
+    background: #f1ab4c;
     text-shadow: none;
 	top: 4px;
 }
@@ -858,12 +868,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	margin: 1px 4px;
 }
 .reviews .carousel-indicators li {	
-    background: rgb(65, 185, 65);
+    background: #f1ab4c;
     border: 4px solid #fff;
 }
 .reviews .carousel-indicators li.active {
 	color: #fff;
-    background: #24861b;    
+    background: #eb9927;    
     border: 5px double;    
 }
 .star-rating{
