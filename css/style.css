@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -5,6 +13,7 @@ body {
   overflow-x: hidden;
   color: #707172;
   background-color: #101920;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -84,7 +93,6 @@ a {
 .tm-brand {
   font-size: 2.6rem;
 }
-
 .tm-brand-box {
   box-sizing: content-box;
   width: 100%;
@@ -93,7 +101,7 @@ a {
   color: white;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .tm-double-border-1,
@@ -114,6 +122,11 @@ a {
 .tm-box-pad {
   padding: 50px 55px;
 }
+
+#tm-box-pad-about{
+  padding: 50px 55px 10px 55px;
+}
+
 
 .tm-brand {
   padding: 30px;
@@ -236,6 +249,14 @@ a {
 
 .tm-section-half {
   padding: 25px;
+}
+
+.tm-section-half a {
+  color: #707172;
+}
+
+.tm-section-half p {
+  margin-bottom: 0;
 }
 
 .tm-section-icon {
@@ -670,22 +691,14 @@ figure.effect-bubba:hover p {
   }
 }
 
-/*
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
-  .carousel-indicators li {
-    width: 15px;
-    height: 2px;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+  .carousel-indicators {
+    display: none;
   }
 }
-
+/*
 @media (min-width: 577px) {
 
   .carousel-indicators li {
@@ -762,8 +775,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	bottom: -20px;
 }
 .reviews .carousel {
-  margin: 50px auto;
-  font-family: "Open Sans", sans-serif; 
+  margin: 0px 50px 50px 50px auto;
 }
 .reviews .carousel .item {
 	color: #999;
@@ -1052,11 +1064,53 @@ Extra (xl) large devices (large desktops, 1200px and up)
   margin-bottom: 18px;
   padding-bottom: 0;
 }
+@media only screen and (max-width:350px){
+  #projects .projects-item .projects-info h4 {
+    font-size: 15px;
+  }
 
-#projects .projects-item .projects-info h4 a {
-  color: #333;
+  #tm-box-pad-about {
+    padding: 10px 10px 10px 10px;
+  }
+
+}
+@media only screen and (max-width:420px){
+  #tm-box-pad-about {
+    padding: 30px 15px 10px 15px;
+  }
+  #projects {
+    padding: 30px 20px;
+}
 }
 
+
+@media (min-width: 351px) {
+  #projects .projects-item .projects-info h4 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 410px) {
+  #projects .projects-item .projects-info h4 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 990px) {
+  #projects .projects-item .projects-info h4 {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1000px) {
+  #projects .projects-item .projects-info h4 {
+    font-size: 18px;
+  }
+}
+
+
+#projects .projects-item .projects-info h4 a {
+    color: #333;
+  }
 #projects .projects-item .projects-info h4 a:hover {
   color: #f1ab4c;
 }
@@ -1102,18 +1156,17 @@ div#preloader {
   background: #101920 url('../img/preloader.gif') no-repeat center center;
 }
 
-/* Services Section
+/* Workflow Section
 --------------------------------*/
 
-#services {
+#workflow {
   padding: 30px 60px;
 }
-.serviceBox{
-  font-family: 'Roboto Condensed', sans-serif;
+.workflowBox{
   text-align: center;
   padding: 50px 10px 20px;
 }
-.serviceBox .service-icon{
+.workflowBox .service-icon{
   color: #B53471;
   background: #fff;
   font-size: 50px;
@@ -1125,24 +1178,45 @@ div#preloader {
   transform: rotate(45deg);
   transition: all 0.3s;
 }
-.serviceBox .service-icon i.fa{ transform: rotate(-45deg); }
-.serviceBox:hover .service-icon{
+.workflowBox .service-icon i.fa{ transform: rotate(-45deg); }
+.workflowBox:hover .service-icon{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8),-14px -14px 0px #101920;
 }
-.serviceBox .title{
+.workflowBox .title{
   color: #B53471;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 0 10px;
 }
-.serviceBox .description{
+@media only screen and (max-width:766px){
+  .workflowBox .title{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width:767px){
+  .workflowBox .title{
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width:902px){
+  .workflowBox .title{
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width:1200px){
+  .workflowBox .title{
+    font-size: 20px;
+  }
+}
+
+.workflowBox .description{
   color: #888;
   font-size: 15px;
   line-height: 25px;
   margin: 0 0 15px;
 }
-.serviceBox .read-more{
+.workflowBox .read-more{
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -1154,11 +1228,11 @@ div#preloader {
   z-index: 1;
   transition: all 0.3s;
 }
-.serviceBox .read-more:hover{
+.workflowBox .read-more:hover{
   color: #101920;
   letter-spacing: 1px;
 }
-.serviceBox .read-more:before{
+.workflowBox .read-more:before{
   content: '';
   background: #101920;
   height: 100%;
@@ -1170,64 +1244,64 @@ div#preloader {
   z-index: -1;
   transition: all 0.3s;
 }
-.serviceBox .read-more:hover:before{ transform: scale(0) skew(-20deg); }
+.workflowBox .read-more:hover:before{ transform: scale(0) skew(-20deg); }
 
-.serviceBox.brightyellow .service-icon{
+.workflowBox.brightyellow .service-icon{
   color: #f1ab4c;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),-14px -14px 0px #f1ab4c;
 }
-.serviceBox.brightyellow:hover .service-icon{
+.workflowBox.brightyellow:hover .service-icon{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8),-24px -24px 0px #f1ab4c;
 }
-.serviceBox.brightyellow .title,
-.serviceBox.brightyellow .read-more:hover{
+.workflowBox.brightyellow .title,
+.workflowBox.brightyellow .read-more:hover{
   color: #f1ab4c;
 }
-.serviceBox.brightyellow .read-more:before{ background: #f1ab4c; }
+.workflowBox.brightyellow .read-more:before{ background: #f1ab4c; }
 
-.serviceBox.yellow .service-icon{
+.workflowBox.yellow .service-icon{
   color: #ca7703;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),-14px -14px 0px #ca7703;
 }
-.serviceBox.yellow:hover .service-icon{
+.workflowBox.yellow:hover .service-icon{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8),-24px -24px 0px #ca7703;
 }
-.serviceBox.yellow .title,
-.serviceBox.yellow .read-more:hover{
+.workflowBox.yellow .title,
+.workflowBox.yellow .read-more:hover{
   color: #ca7703;
 }
-.serviceBox.yellow .read-more:before{ background: #ca7703; }
+.workflowBox.yellow .read-more:before{ background: #ca7703; }
 
-.serviceBox.darkyellow .service-icon{
+.workflowBox.darkyellow .service-icon{
   color: #774703;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),-14px -14px 0px #774703;
 }
-.serviceBox.darkyellow:hover .service-icon{
+.workflowBox.darkyellow:hover .service-icon{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8),-24px -24px 0px #774703;
 }
-.serviceBox.darkyellow .title,
-.serviceBox.darkyellow .read-more:hover{
+.workflowBox.darkyellow .title,
+.workflowBox.darkyellow .read-more:hover{
   color: #774703;
 }
-.serviceBox.darkyellow .read-more:before{ background: #774703; }
+.workflowBox.darkyellow .read-more:before{ background: #774703; }
 
-.serviceBox.dark .service-icon{
+.workflowBox.dark .service-icon{
   color: #101920;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),-14px -14px 0px #101920;
 }
-.serviceBox.dark:hover .service-icon{
+.workflowBox.dark:hover .service-icon{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8),-24px -24px 0px #101920;
 }
-.serviceBox.dark .title,
-.serviceBox.dark .read-more:hover{
+.workflowBox.dark .title,
+.workflowBox.dark .read-more:hover{
   color: #101920;
 }
-.serviceBox.dark .read-more:before{ background: #101920; }
+.workflowBox.dark .read-more:before{ background: #101920; }
 
-#services-title{
+#workflow-title{
   text-align: center;
 }
-#services-title h2::after {
+#workflow-title h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -1236,7 +1310,7 @@ div#preloader {
   background: linear-gradient(45deg, #f1ab4c, #101920);
   top: -23px;
 }
-#services-title h2::before {
+#workflow-title h2::before {
   content: '';
   position: absolute;
   display: block;
@@ -1246,19 +1320,20 @@ div#preloader {
   bottom: 0;
 }
 @media only screen and (max-width:990px){
-  .serviceBox{ margin: 0 0 40px; }
+  .workflowBox{ margin: 0 0 40px; }
+}
+.tm-social-links{
+  margin-top: 3rem;
 }
 
-/* Skills Section
+
+/* About Section
 --------------------------------*/
-#skills {
-  padding: 30px 60px 30px 60px;
-}
 
-#skills-title{
+#about-title{
   text-align: center;
 }
-#skills-title h2::after {
+#about-title h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -1267,21 +1342,12 @@ div#preloader {
   background: linear-gradient(45deg, #f1ab4c, #101920);
   top: -23px;
 }
-#skills-title h2::before {
+#about-title h2::before {
   content: '';
   position: absolute;
   display: block;
   width: 100%;
   height: 2px;
-  background: linear-gradient(-45deg, #f1ab4c, #101920);;
+  background: linear-gradient(-45deg, #f1ab4c, #101920);
   bottom: 0;
 }
-
-.progress-bar-brightyellow {
-  background-color: #f1ab4c !important;
-}
-
-.skillbar{
-  padding: 10px
-}
-
