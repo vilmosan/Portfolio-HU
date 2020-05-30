@@ -174,7 +174,8 @@ a {
 }
 
 .tm-main-nav {
-  margin-bottom: 20px;
+  position: absolute;
+  top: 35vh;
 }
 
 .tm-white-rect {
@@ -517,6 +518,10 @@ figure.effect-bubba:hover p {
   height: 120px;
 }
 
+#contactSection{
+  padding: 100px 60px 30px 60px;
+} 
+
 .tm-contact-form-wrap {
   display: flex;
   align-items: center;
@@ -609,10 +614,6 @@ figure.effect-bubba:hover p {
 
   .tm-brand {
     padding: 20px 30px;
-  }
-
-  .tm-main-nav {
-    margin-bottom: 50px;
   }
 
   footer p {
@@ -755,6 +756,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
     top: 4px;
   }
 }
+
+#reviewsSection{
+  padding: 30px 60px;
+}
+
 .reviews .carousel h2 {
 	color: #000;
 	font-size: 26px;
@@ -933,18 +939,18 @@ Extra (xl) large devices (large desktops, 1200px and up)
 /* Projects Section
 --------------------------------*/
 
-#projects {
+#projectsSection {
   padding: 30px 60px;
 }
 
-#projects #projects-flters {
+#projectsSection #projects-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#projects #projects-flters li {
+#projectsSection #projects-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -959,32 +965,32 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transition: all 0.3s ease-in-out;
 }
 
-#projects #projects-flters li:hover,
-#projects #projects-flters li.filter-active {
+#projectsSection #projects-flters li:hover,
+#projectsSection #projects-flters li.filter-active {
   background: #f1ab4c;
   color: #fff;
 }
 
-#projects #projects-flters li:last-child {
+#projectsSection #projects-flters li:last-child {
   margin-right: 0;
 }
 
-#projects .projects-wrap {
+#projectsSection .projects-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
-#projects .projects-wrap:hover {
+#projectsSection .projects-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-#projects .projects-item {
+#projectsSection .projects-item {
   position: relative;
   height: 360px;
   overflow: hidden;
 }
 
-#projects .projects-item figure {
+#projectsSection .projects-item figure {
   background: #101920;
   overflow: hidden;
   height: 240px;
@@ -993,13 +999,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
   margin: 0;
 }
 
-#projects .projects-item figure:hover img {
+#projectsSection .projects-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#projects .projects-item figure .link-preview,
-#projects .projects-item figure .link-details {
+#projectsSection .projects-item figure .link-preview,
+#projectsSection .projects-item figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -1012,44 +1018,44 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transition: 0.2s linear;
 }
 
-#projects .projects-item figure .link-preview i,
-#projects .projects-item figure .link-details i {
+#projectsSection .projects-item figure .link-preview i,
+#projectsSection .projects-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#projects .projects-item figure .link-preview:hover,
-#projects .projects-item figure .link-details:hover {
+#projectsSection .projects-item figure .link-preview:hover,
+#projectsSection .projects-item figure .link-details:hover {
   background: #f1ab4c;
 }
 
-#projects .projects-item figure .link-preview:hover i,
-#projects .projects-item figure .link-details:hover i {
+#projectsSection .projects-item figure .link-preview:hover i,
+#projectsSection .projects-item figure .link-details:hover i {
   color: #fff;
 }
 
-#projects .projects-item figure .link-preview {
+#projectsSection .projects-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#projects .projects-item figure .link-details {
+#projectsSection .projects-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#projects .projects-item figure:hover .link-preview {
+#projectsSection .projects-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
 
-#projects .projects-item figure:hover .link-details {
+#projectsSection .projects-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
 
-#projects .projects-item .projects-info {
+#projectsSection .projects-item .projects-info {
   background: #fff;
   text-align: center;
   padding: 30px;
@@ -1057,7 +1063,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   border-radius: 0 0 3px 3px;
 }
 
-#projects .projects-item .projects-info h4 {
+#projectsSection .projects-item .projects-info h4 {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
@@ -1065,7 +1071,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   padding-bottom: 0;
 }
 @media only screen and (max-width:350px){
-  #projects .projects-item .projects-info h4 {
+  #projectsSection .projects-item .projects-info h4 {
     font-size: 15px;
   }
 
@@ -1078,44 +1084,44 @@ Extra (xl) large devices (large desktops, 1200px and up)
   #tm-box-pad-about {
     padding: 30px 15px 10px 15px;
   }
-  #projects {
+  #projectsSection {
     padding: 30px 20px;
 }
 }
 
 
 @media (min-width: 351px) {
-  #projects .projects-item .projects-info h4 {
+  #projectsSection .projects-item .projects-info h4 {
     font-size: 15px;
   }
 }
 
 @media (min-width: 410px) {
-  #projects .projects-item .projects-info h4 {
+  #projectsSection .projects-item .projects-info h4 {
     font-size: 18px;
   }
 }
 
 @media (min-width: 990px) {
-  #projects .projects-item .projects-info h4 {
+  #projectsSection .projects-item .projects-info h4 {
     font-size: 17px;
   }
 }
 @media (min-width: 1000px) {
-  #projects .projects-item .projects-info h4 {
+  #projectsSection .projects-item .projects-info h4 {
     font-size: 18px;
   }
 }
 
 
-#projects .projects-item .projects-info h4 a {
+#projectsSection .projects-item .projects-info h4 a {
     color: #333;
   }
-#projects .projects-item .projects-info h4 a:hover {
+#projectsSection .projects-item .projects-info h4 a:hover {
   color: #f1ab4c;
 }
 
-#projects .projects-item .projects-info p {
+#projectsSection .projects-item .projects-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
@@ -1159,7 +1165,7 @@ div#preloader {
 /* Workflow Section
 --------------------------------*/
 
-#workflow {
+#workflowSection {
   padding: 30px 60px;
 }
 .workflowBox{
@@ -1322,17 +1328,17 @@ div#preloader {
 @media only screen and (max-width:990px){
   .workflowBox{ margin: 0 0 40px; }
 }
-.tm-social-links{
-  margin-top: 3rem;
-}
-
 
 /* About Section
 --------------------------------*/
+#aboutSection{
+  padding: 30px 60px;
+}
 
 #about-title{
   text-align: center;
 }
+
 #about-title h2::after {
   content: '';
   position: absolute;
@@ -1342,6 +1348,7 @@ div#preloader {
   background: linear-gradient(45deg, #f1ab4c, #101920);
   top: -23px;
 }
+
 #about-title h2::before {
   content: '';
   position: absolute;
@@ -1350,4 +1357,9 @@ div#preloader {
   height: 2px;
   background: linear-gradient(-45deg, #f1ab4c, #101920);
   bottom: 0;
+}
+
+.tm-social-links{
+  position: absolute;
+  top: 90vh;
 }

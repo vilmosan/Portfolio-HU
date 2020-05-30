@@ -13,6 +13,20 @@
   // Initiate the wowjs animation library
   new WOW().init();
 
+  // Welcoming parallax image based on resolution
+  if($(window).width() > 1325) {
+    // Unset data-image-src property
+    $(".parallax-window").attr("data-image-src", "./img/wide-banner.jpg");
+  }
+  else if($(window).width() <= 1325 && $(window).width() > 788) {
+    // Set data-image-src property
+    $(".parallax-window").attr("data-image-src", "./img/tablet-banner.jpg");
+  }
+  else if($(window).width() <= 788) {
+    // Set data-image-src property
+    $(".parallax-window").attr("data-image-src", "./img/mobile-banner.jpg");
+  }
+  
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({
     animation: {

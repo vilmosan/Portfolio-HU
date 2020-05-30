@@ -64,25 +64,25 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#projects" class="nav-link">
+                <a href="#projectsSection" class="nav-link">
                   <span class="d-inline-block mr-3">Portfólióm</span>
                   <span class="d-inline-block tm-white-rect"></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#workflow" class="nav-link">
+                <a href="#workflowSection" class="nav-link">
                   <span class="d-inline-block mr-3">Fázisok</span>
                   <span class="d-inline-block tm-white-rect"></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#reviews" class="nav-link">
+                <a href="#reviewsSection" class="nav-link">
                   <span class="d-inline-block mr-3">Értékelések</span>
                   <span class="d-inline-block tm-white-rect"></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">
+                <a href="#contactSection" class="nav-link">
                   <span class="d-inline-block mr-3">Kapcsolat</span>
                   <span class="d-inline-block tm-white-rect"></span>
                 </a>
@@ -90,18 +90,18 @@
             </ul>
             <ul class="nav flex-row tm-social-links">
               <li class="nav-item">
-                <a href="https://www.facebook.com/William.Irons.1992" class="nav-link tm-social-link">
+                <a href="https://www.facebook.com/William.Irons.1992" target="_blank" class="nav-link tm-social-link">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://youtube.com" class="nav-link tm-social-link">
-                  <i class="fab fa-youtube"></i>
+                <a href="https://instagram.com/wilmosan" target="_blank" class="nav-link tm-social-link">
+                  <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://instagram.com" class="nav-link tm-social-link">
-                  <i class="fab fa-instagram"></i>
+                <a href="https://github.com/vilmosan" target="_blank" class="nav-link tm-social-link">
+                  <i class="fab fa-github"></i>
                 </a>
               </li>
               <li class="nav-item">
@@ -118,7 +118,7 @@
         <main role="main" class="ml-sm-auto col-12">
 
           <!-- INTRO -->
-          <div class="parallax-window" data-parallax="scroll" data-image-src="img/BANNER1.jpg">
+          <div class="parallax-window" data-parallax="scroll">
             <div class="tm-section-wrap">
               <section id="intro" class="tm-section">
                 
@@ -143,7 +143,7 @@
 
           <!-- ABOUT -->
           <div class="tm-section-wrap bg-white">
-            <section class="row tm-section">
+            <section class="section-bg" id="aboutSection">
               <div class="col-12">
                 <div class="w-100 tm-double-border-1 tm-border-gray">
                   <div class="tm-double-border-2 tm-border-gray tm-box-pad" id="tm-box-pad-about">
@@ -166,7 +166,7 @@
                               echo '<b>'.$age.'</b> éves vagyok és írtam egy programot, ami ezt a számot
                               minden évben automatikusan megváltoztatja a születésnapomon.<br>'
                             ?>
-                            Pécstől 10 Km-re egy csendes, békés faluban, <b><a href="https://goo.gl/maps/d4pkqQX21GK6dZE18" target="_blank">Kővágótöttösön</a></b>
+                            Pécstől 10 Km-re egy csendes, békés faluban, <i><a href="https://goo.gl/maps/d4pkqQX21GK6dZE18" target="_blank">Kővágótöttösön</a></i>
                             élek.
                           </p>
                           <p>
@@ -202,7 +202,7 @@
 
           <!-- PROJECTS -->
           <div class="tm-section-wrap bg-white">
-            <section id="projects"  class="section-bg" >
+            <section id="projectsSection"  class="section-bg" >
               <div class="container">
                 <div class="wow zoomIn" data-wow-duration="1s">
                   <header class="section-header" id="projects-title">
@@ -215,12 +215,12 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project1.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/app1.jpg" data-lightbox="projects" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project1-preview.jpg" data-lightbox="projects" data-title="App 1" class="link-preview" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="https://kovago-zoldseg.hu" target="_blank" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
-                          <h4><a href="#">Fedezd fel az Élő verziót!</a></h4>
+                          <h4><a href="https://kovago-zoldseg.hu" target="_blank">Fedezd fel az Élő verziót!</a></h4>
                       </div>
                     </div>
                   </div>
@@ -228,9 +228,9 @@
                   <div class="col-lg-6 col-md-6 projects-item filter-web wow fadeInUp" data-wow-duration="1s">
                     <div class="projects-wrap">
                       <figure>
-                        <img src="img/projects/project2.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project2.jpg" class="link-preview" data-lightbox="projects" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <img src="img/projects/project2-hu.jpg" class="img-fluid" alt="">
+                        <a href="img/projects/project2-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Web 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -243,8 +243,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project3-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project3-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project3-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -257,8 +257,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project4-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project4-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project4-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -271,8 +271,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project5-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project5-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project5-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Web 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -285,8 +285,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project6-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project6-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project6-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -299,8 +299,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project7-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project7-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project7-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 1" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -313,8 +313,8 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project8-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project8-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        <a href="img/projects/project8-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
                       <div class="projects-info">
@@ -331,7 +331,7 @@
   
           <!-- WORKFLOW -->
           <div class="tm-section-wrap bg-white">
-              <section id="workflow"  class="section-bg" >
+              <section id="workflowSection"  class="section-bg" >
                 <div class="container">
                   
                     <div class="wow zoomIn" data-wow-duration="1s">
@@ -388,12 +388,12 @@
           
           <!-- REVIEWS -->
           <div class="tm-section-wrap bg-white">
-            <section id="reviews" class="row tm-section">
+            <section id="reviewsSection" class="section-bg">
               <div class="col-12">
                 <div class="container reviews wow zoomIn" data-wow-duration="2s">
                   <div class="row">
                     <div class="col-sm-12">			
-                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
                         <h2>Értékelések az <b>ügyfeleimtől</b></h2>
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators review">
@@ -586,7 +586,8 @@
 
           <!-- CONTACT -->
           <div class="tm-section-wrap bg-white">
-            <section id="contact" class="row tm-section">
+            <section id="contactSection" class="section-bg">
+              <div class="row">
                 <div class="col-xl-6 col-md-6 mb-5 wow fadeInRight" data-wow-duration="2s">
                   <div class="tm-double-border-1 tm-border-gray">
                     <div class="tm-double-border-2 tm-border-gray tm-box-pad">
@@ -597,11 +598,6 @@
                         <p class="mb-3">
                           Miután kielemeztem a szituációdat, <b>visszajelzek</b>, hogy milyen lehetőségek állnak előtted a céljaid eléréséhez.
                         </p>
-                        <?php
-                    if(!empty($msg)){ 
-                      echo "<h2>$msg</h2>";
-                    }
-                  ?>
                     </div>                    
                   </div>                  
                 </div>
@@ -620,13 +616,33 @@
                         </div>
                 
                         <div class="form-group mb-0">
-                          <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                          <button type="submit" name="sendEmail" class="btn rounded-0 d-block ml-auto tm-btn-primary">
                             KÜLDÉS
                           </button>
                         </div>
                       </form>
                   </div>                    
                 </div>
+              </div>
+<?php
+if(isset($_POST['sendEmail']))
+{
+	$contactName = $_POST['contact_name'];
+	$contactEmail = $_POST['contact_email'];
+	$contactEmail = trim($contactEmail);
+	$contactMessage = $_POST['contact_message'];
+	
+  $mailTo = "root";
+  $mailSubject = "Webfejlesztés - ".$contactName.".";
+	
+	mail(
+    $mailTo,
+    $mailSubject,
+    $contactMessage,
+    "From: " . $contactName . " <".$contactEmail.">",
+    "-f $contactEmail -r vvebdevelopment@gmail.com");
+}
+?>
               </section>
           </div>
           <!-- End of Contact -->
@@ -760,12 +776,13 @@
                 <img src="img/workflows/workflow4.png" class="img-fluid" alt="">  
               </div>
               <div>
-                <p class="description">Az átadást megelőzően a weboldal egy többlépcsős ellenőrzésen esik át, többek között a Google webmester eszközök segítségével,
-                  vizsgálat tárgya a teljesség igénye nélkül a responsive jelleg és az oldal betöltési sebesség is. Beállításra és tesztelésre kerülnek a levelező
+                <p class="description">Az átadást megelőzően a weboldal egy többlépcsős ellenőrzésen esik át,
+                  vizsgálat tárgya a teljesség igénye nélkül a responsive jelleg és az oldal betöltési sebesség is. 
+                  Beállításra és tesztelésre kerülnek a levelező
                   és hírlevél küldő rendszerek is, amennyiben azt az ügyfél megrendelte.<br>
                   Az átadással nem szűnik meg az együttműködés, bármilyen kérdés esetén rendelkezésre állok. Igény esetén bármilyen volumenű 
                   tartalom vagy funkció fejlesztést is vállalok, külön megbízás keretében. Ha csak vállalatával vagy saját hivatásával szeretne foglalkozni,
-                  szervezze ki nyugodtan weboldala kezelését.</p>
+                  szervezze ki nyugodtan weboldala karbantartását.</p>
               </div>
               <div class="modal-footer d-flex justify-content-center buttonAddFormWrapper">
                   <button class="btn btn-outline-dark btn-block buttonAdd" data-dismiss="modal">Bezárás</button>
