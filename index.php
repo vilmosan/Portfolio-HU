@@ -215,7 +215,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project1.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project1-preview.jpg" data-lightbox="projects" data-title="App 1" class="link-preview" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project1-preview.jpg" data-lightbox="projects" data-title="www.kovago-zoldseg.hu" class="link-preview" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="https://kovago-zoldseg.hu" target="_blank" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -229,7 +229,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project2-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project2-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Web 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project2-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -243,7 +243,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project3-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project3-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project3-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -257,7 +257,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project4-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project4-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project4-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -271,7 +271,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project5-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project5-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Web 2" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project5-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -285,7 +285,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project6-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project6-hu.jpg" class="link-preview" data-lightbox="projects" data-title="App 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project6-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -299,7 +299,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project7-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project7-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 1" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project7-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
@@ -313,7 +313,7 @@
                     <div class="projects-wrap">
                       <figure>
                         <img src="img/projects/project8-hu.jpg" class="img-fluid" alt="">
-                        <a href="img/projects/project8-hu.jpg" class="link-preview" data-lightbox="projects" data-title="Card 3" title="Előnézet"><i class="ion ion-eye"></i></a>
+                        <a href="img/projects/project8-hu.jpg" class="link-preview" data-lightbox="projects" data-title="www.placeholder.com" title="Előnézet"><i class="ion ion-eye"></i></a>
                         <a href="#" class="link-details" title="Ugrás az oldalra"><i class="ion ion-android-open"></i></a>
                       </figure>
 
